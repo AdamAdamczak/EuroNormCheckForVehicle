@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Sprawdź normę EURO dla …",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "TmduCt9A802j5JOemGaJvg",
+  "Reference": "cKqHnN-ml0W5F--lgZhQYg/TmduCt9A802j5JOemGaJvg",
+  "ParentRef": "cKqHnN-ml0W5F--lgZhQYg/Uxd0LMwWX0elmwlXfNAYLQ",
+  "Created": "2025-03-02T19:00:53.1391958Z",
+  "Updated": "2025-03-02T19:00:53.1391958Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

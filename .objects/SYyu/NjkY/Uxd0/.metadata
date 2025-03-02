@@ -1,0 +1,16 @@
+﻿{
+  "Name": "WebScreen",
+  "Type": "Screen",
+  "Id": "Uxd0LMwWX0elmwlXfNAYLQ",
+  "Reference": "cKqHnN-ml0W5F--lgZhQYg/Uxd0LMwWX0elmwlXfNAYLQ",
+  "ParentRef": "cKqHnN-ml0W5F--lgZhQYg/NjkYDZ7Q3EW031xaaqHObQ",
+  "Created": "2025-03-02T19:00:17.4890439Z",
+  "Updated": "2025-03-02T19:00:35.8664473Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

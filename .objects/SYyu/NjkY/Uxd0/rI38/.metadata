@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Podaj numer rejestracyj…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "rI38X7hJdUaZnN67Q2koIQ",
+  "Reference": "cKqHnN-ml0W5F--lgZhQYg/rI38X7hJdUaZnN67Q2koIQ",
+  "ParentRef": "cKqHnN-ml0W5F--lgZhQYg/Uxd0LMwWX0elmwlXfNAYLQ",
+  "Created": "2025-03-02T19:02:45.8171733Z",
+  "Updated": "2025-03-02T19:02:45.8171733Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

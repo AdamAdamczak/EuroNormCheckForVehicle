@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pwQ-_eNmeU2GgKCYhBUD1g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moj.gov.pl/nforms/engine/ng/index" CVScreenId="e4d2082a-16ac-4bc7-a0e9-7520ea853f1e" DesignTimeRectangle="381, 612, 761, 78" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aria-role='alert' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='alert' tag='P' type='' class='nforms-alert nforms-alert--warning nforms-default-text nforms-icon nforms-icon--alert' aaname='Tego numeru rejestracyjnego nie ma w naszej bazie. Sprawdź, czy wpisany numer jest prawidłowy.' check:innerText='Tego numeru rejestracyjnego nie ma w naszej bazie. Sprawdź, czy wpisany numer jest prawidłowy.' /&gt;" Guid="90df32f1-b7f0-429f-85ed-5db90b82b0b2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sprawdź normę EURO dla pojazdu - Portal gov.pl' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b0cbef6247feca99a0e2326a3959d6d0.png" xmlns="">02gK7S2sHfkuJyJmiFW55hQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

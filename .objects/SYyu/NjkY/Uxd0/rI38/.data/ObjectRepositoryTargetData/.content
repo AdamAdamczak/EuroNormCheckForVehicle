@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Kcx4yqV_0kSvQh3Zvr481g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moj.gov.pl/nforms/engine/ng/index" CVScreenId="4b8d4ca2-36a8-4b3b-b976-a1d418490a76" CvElementArea="380, 636, 366, 46" CvType="InputBox" DesignTimeRectangle="381, 637, 364, 44" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='registrationNumber' tag='INPUT' type='text' class='nforms-form-field ng-untouched ng-pristine ng-invalid' placeholder='Wpisz np. AB12345' aaname='Podaj numer rejestracyjny pojazdu ' /&gt;" Guid="f84de504-4563-4d29-b8e3-845c2b6e00dd" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sprawdź normę EURO dla pojazdu - Portal gov.pl' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4b8d4ca2-36a8-4b3b-b976-a1d418490a76" CvTextArea="380, 614, 227, 17" CvTextArgument="Podaj numer rejestracyjny pojazdu" CvType="Text" DesignTimeRectangle="381, 612, 226, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='nforms-form-label' aaname='Podaj numer rejestracyjny pojazdu ' check:innerText='Podaj numer rejestracyjny pojazdu' /&gt;" Guid="f440ccaa-34de-4fe5-837b-b04ef211a8cb" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f8a9bf7303f65ee76e62996380d1847e.png" xmlns="">0viPQVe018k6DQotV4iXJpw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

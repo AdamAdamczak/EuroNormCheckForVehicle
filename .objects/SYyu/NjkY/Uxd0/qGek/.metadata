@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Norma EURO dla tego poj…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "qGekPkmqSUSFU4YEYycmqQ",
+  "Reference": "cKqHnN-ml0W5F--lgZhQYg/qGekPkmqSUSFU4YEYycmqQ",
+  "ParentRef": "cKqHnN-ml0W5F--lgZhQYg/Uxd0LMwWX0elmwlXfNAYLQ",
+  "Created": "2025-03-02T19:06:19.1945857Z",
+  "Updated": "2025-03-02T19:06:19.1945857Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

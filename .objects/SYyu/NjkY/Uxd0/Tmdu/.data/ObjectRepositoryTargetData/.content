@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AdvK0xSctUioYO8acHcMxw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moj.gov.pl/nforms/engine/ng/index" CVScreenId="4b8d4ca2-36a8-4b3b-b976-a1d418490a76" CvTextArea="379, 332, 708, 47" CvTextArgument="Sprawdź normę EURO dla pojazdu" CvType="Text" DesignTimeRectangle="381, 325, 761, 52" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='nforms-site-title' aaname='Sprawdź normę EURO dla pojazdu' check:innerText='Sprawdź normę EURO dla pojazdu' /&gt;" Guid="934bff46-c449-4d13-9d21-1d7673b2360b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sprawdź normę EURO dla pojazdu - Portal gov.pl' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="acef63f79a640f3dbb3aa2c9564a7659.png" xmlns="">0B1LbDxTRzUK_H7PSuOeZPQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

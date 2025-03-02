@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5_bglrbv20KEe9cQ4mf4dA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moj.gov.pl/nforms/engine/ng/index" DesignTimeRectangle="365, 504, 793, 178" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;app-form&amp;gt;nforms-frame&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-vehicle-details&amp;gt;div&amp;gt;section&amp;gt;app-emission-standard&amp;gt;div&amp;gt;div' parentid='nforms-main' tag='DIV' isleaf='0' parentclass='row' /&gt;" Guid="0dbbf00c-990e-4601-beb0-a5d58fa203d0" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sprawdź normę EURO dla pojazdu - Portal gov.pl' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="691e2d4e617304c86fe0994f847dba30.png" xmlns="">0QPKK5r6Sq06IyQAU6jR9zQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
