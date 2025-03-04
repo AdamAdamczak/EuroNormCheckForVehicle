@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4_N-eo6lpEukXgVlRlpl3w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moj.gov.pl/nforms/info/show" CVScreenId="8b8fe333-df07-467d-b81b-e2cef32b448d" CvElementArea="1030, 582, 309, 47" CvTextArea="1114, 593, 141, 25" CvTextArgument="OTWÓRZ STRONĘ" CvType="Button" DesignTimeRectangle="1116, 595, 137, 22" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='multi-tab__button--text' tag='STRONG' type='' aaname='OTWÓRZ STRONĘ' check:innerText='OTWÓRZ STRONĘ' /&gt;" Guid="6cbe065b-a696-46ac-96d9-72169445b019" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Brak danych w Rejestrze Dowodów Osobistych - Portal gov.pl' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1a2727576298139e3b2fc158f366b624.png" xmlns="">0Rchn8fGsr0i3POjFRGXbHg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

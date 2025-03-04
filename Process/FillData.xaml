@@ -108,29 +108,29 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="FillData" sap:VirtualizedContainerService.HintSize="1560,1829" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="FillData" sap:VirtualizedContainerService.HintSize="1560,1797" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1560,1806" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" IsDisplayNameAuto="True" ScopeGuid="33457b45-7ff8-43ec-8a4e-0eb1f337ca86" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1560,1774" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" IsDisplayNameAuto="True" ScopeGuid="33457b45-7ff8-43ec-8a4e-0eb1f337ca86" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1526,1646" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1526,1614" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Podaj numer rejestracyj…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1492,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="33457b45-7ff8-43ec-8a4e-0eb1f337ca86" Version="V4">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Podaj numer rejestracyj…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1492,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="33457b45-7ff8-43ec-8a4e-0eb1f337ca86" Version="V4">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="moj.gov.pl/nforms/engine/ng/index" CVScreenId="4b8d4ca2-36a8-4b3b-b976-a1d418490a76" ContentHash="Kcx4yqV_0kSvQh3Zvr481g" CvElementArea="380, 636, 366, 46" CvType="InputBox" DesignTimeRectangle="381, 637, 364, 44" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='registrationNumber' tag='INPUT' type='text' class='nforms-form-field ng-untouched ng-pristine ng-invalid' placeholder='Wpisz np. AB12345' aaname='Podaj numer rejestracyjny pojazdu ' /&gt;" Guid="f84de504-4563-4d29-b8e3-845c2b6e00dd" InformativeScreenshot="f8a9bf7303f65ee76e62996380d1847e.png" IsResponsive="True" Reference="cKqHnN-ml0W5F--lgZhQYg/rI38X7hJdUaZnN67Q2koIQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sprawdź normę EURO dla pojazdu - Portal gov.pl' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="4b8d4ca2-36a8-4b3b-b976-a1d418490a76" CvTextArea="380, 614, 227, 17" CvTextArgument="Podaj numer rejestracyjny pojazdu" CvType="Text" DesignTimeRectangle="381, 612, 226, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='nforms-form-label' aaname='Podaj numer rejestracyjny pojazdu ' check:innerText='Podaj numer rejestracyjny pojazdu' /&gt;" Guid="f440ccaa-34de-4fe5-837b-b04ef211a8cb" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -141,18 +141,8 @@
                   <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">in_CarID + "[k(Enter)]"</CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
-              <uix:NTypeInto.VerifyOptions>
-                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                  <uix:VerifyExecutionTypeIntoOptions.Retry>
-                    <InArgument x:TypeArguments="x:Boolean" />
-                  </uix:VerifyExecutionTypeIntoOptions.Retry>
-                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                </uix:VerifyExecutionTypeIntoOptions>
-              </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NCheckState DisplayName="Check App State 'Norma EURO dla tego poj…'" sap:VirtualizedContainerService.HintSize="1492,1298" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="33457b45-7ff8-43ec-8a4e-0eb1f337ca86" Version="V4">
+            <uix:NCheckState DisplayName="Check App State 'Norma EURO dla tego poj…'" sap:VirtualizedContainerService.HintSize="1492,1302" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="33457b45-7ff8-43ec-8a4e-0eb1f337ca86" Version="V4">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,594" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
@@ -187,7 +177,7 @@
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="988,1018" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="988,1020" sap2010:WorkflowViewState.IdRef="Sequence_7">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>

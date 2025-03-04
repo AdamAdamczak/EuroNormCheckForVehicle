@@ -102,26 +102,26 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="InitBrowser" sap:VirtualizedContainerService.HintSize="1276,777" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="InitBrowser" sap:VirtualizedContainerService.HintSize="1560,1344" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Sprawdź normę EURO dla pojazdu - Porta" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1022,754" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="8d8f758f-2ba8-4608-a78d-3132c40b846f" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Sprawdź normę EURO dla pojazdu - Porta" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1560,1321" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="8d8f758f-2ba8-4608-a78d-3132c40b846f" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="988,514" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1526,1081" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState DisplayName="Check App State 'Sprawdź normę EURO dla …'" sap:VirtualizedContainerService.HintSize="954,452" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="8d8f758f-2ba8-4608-a78d-3132c40b846f" Timeout="60" Version="V4">
+            <uix:NCheckState DisplayName="Check App State 'Sprawdź normę EURO dla …'" sap:VirtualizedContainerService.HintSize="1492,1019" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="8d8f758f-2ba8-4608-a78d-3132c40b846f" Timeout="5" Version="V4">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,230" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <sap:WorkflowViewStateService.ViewState>
@@ -139,17 +139,62 @@
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="988,757" sap2010:WorkflowViewState.IdRef="Sequence_4">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Throw sap:VirtualizedContainerService.HintSize="416,115" sap2010:WorkflowViewState.IdRef="Throw_1">
-                    <InArgument x:TypeArguments="s:Exception">
-                      <CSharpValue x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">new SystemException("Could not open Gov Page")</CSharpValue>
-                    </InArgument>
-                  </Throw>
+                  <uix:NCheckState DisplayName="Check App State 'OTWÓRZ STRONĘ'" sap:VirtualizedContainerService.HintSize="954,695" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="8d8f758f-2ba8-4608-a78d-3132c40b846f" Version="V4">
+                    <uix:NCheckState.IfExists>
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,455" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OTWÓRZ STRONĘ'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8d8f758f-2ba8-4608-a78d-3132c40b846f" Version="V4">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="moj.gov.pl/nforms/info/show" CVScreenId="8b8fe333-df07-467d-b81b-e2cef32b448d" ContentHash="4_N-eo6lpEukXgVlRlpl3w" CvElementArea="1030, 582, 309, 47" CvTextArea="1114, 593, 141, 25" CvTextArgument="OTWÓRZ STRONĘ" CvType="Button" DesignTimeRectangle="1116, 595, 137, 22" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='multi-tab__button--text' tag='STRONG' type='' aaname='OTWÓRZ STRONĘ' check:innerText='OTWÓRZ STRONĘ' /&gt;" Guid="6cbe065b-a696-46ac-96d9-72169445b019" InformativeScreenshot="1a2727576298139e3b2fc158f366b624.png" Reference="cKqHnN-ml0W5F--lgZhQYg/QBlw0Iyql0Co-MLIKsegGA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Brak danych w Rejestrze Dowodów Osobistych - Portal gov.pl' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_2">
+                          <ui:LogMessage.Message>
+                            <InArgument x:TypeArguments="x:Object">
+                              <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">"Main Page"</CSharpValue>
+                            </InArgument>
+                          </ui:LogMessage.Message>
+                        </ui:LogMessage>
+                      </Sequence>
+                    </uix:NCheckState.IfExists>
+                    <uix:NCheckState.IfNotExists>
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Throw sap:VirtualizedContainerService.HintSize="416,115" sap2010:WorkflowViewState.IdRef="Throw_1">
+                          <InArgument x:TypeArguments="s:Exception">
+                            <CSharpValue x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">new SystemException("Could not open Gov Page")</CSharpValue>
+                          </InArgument>
+                        </Throw>
+                      </Sequence>
+                    </uix:NCheckState.IfNotExists>
+                    <uix:NCheckState.Target>
+                      <uix:TargetAnchorable BrowserURL="moj.gov.pl/nforms/info/show" CVScreenId="8b8fe333-df07-467d-b81b-e2cef32b448d" ContentHash="4_N-eo6lpEukXgVlRlpl3w" CvElementArea="1030, 582, 309, 47" CvTextArea="1114, 593, 141, 25" CvTextArgument="OTWÓRZ STRONĘ" CvType="Button" DesignTimeRectangle="1116, 595, 137, 22" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='multi-tab__button--text' tag='STRONG' type='' aaname='OTWÓRZ STRONĘ' check:innerText='OTWÓRZ STRONĘ' /&gt;" Guid="6cbe065b-a696-46ac-96d9-72169445b019" InformativeScreenshot="1a2727576298139e3b2fc158f366b624.png" Reference="cKqHnN-ml0W5F--lgZhQYg/QBlw0Iyql0Co-MLIKsegGA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Brak danych w Rejestrze Dowodów Osobistych - Portal gov.pl' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                    </uix:NCheckState.Target>
+                  </uix:NCheckState>
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.InUiElement>
@@ -163,12 +208,17 @@
                 </OutArgument>
               </uix:NCheckState.OutUiElement>
               <uix:NCheckState.Target>
-                <uix:TargetAnchorable BrowserURL="moj.gov.pl/nforms/engine/ng/index" CVScreenId="4b8d4ca2-36a8-4b3b-b976-a1d418490a76" ContentHash="AdvK0xSctUioYO8acHcMxw" CvTextArea="379, 332, 708, 47" CvTextArgument="Sprawdź normę EURO dla pojazdu" CvType="Text" DesignTimeRectangle="381, 325, 761, 52" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='nforms-site-title' aaname='Sprawdź normę EURO dla pojazdu' check:innerText='Sprawdź normę EURO dla pojazdu' /&gt;" Guid="934bff46-c449-4d13-9d21-1d7673b2360b" InformativeScreenshot="acef63f79a640f3dbb3aa2c9564a7659.png" Reference="cKqHnN-ml0W5F--lgZhQYg/TmduCt9A802j5JOemGaJvg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sprawdź normę EURO dla pojazdu - Portal gov.pl' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                <uix:TargetAnchorable BrowserURL="moj.gov.pl/nforms/engine/ng/index" CVScreenId="95c0d0fe-60d6-4549-9794-cf6af965b407" ContentHash="CDiNwGEE3kekD_XdxFjBcw" CvElementArea="378, 657, 367, 47" CvTextArea="459, 669, 206, 22" CvTextArgument="SPRAWDŹ DANE POJAZDU" CvType="Button" DesignTimeRectangle="381, 659, 364, 44" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='nforms-button nforms-button--disabled' aaname='Sprawdź dane pojazdu ' check:innerText='SPRAWDŹ DANE POJAZDU' /&gt;" Guid="8b2d094e-376e-411c-9b8a-44b0ddd1ab78" InformativeScreenshot="a606606d9dded73c00d84c14794e7957.png" Reference="cKqHnN-ml0W5F--lgZhQYg/TmduCt9A802j5JOemGaJvg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sprawdź normę EURO dla pojazdu - Portal gov.pl' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
               </uix:NCheckState.Target>
             </uix:NCheckState>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OutUiElement>
+        <OutArgument x:TypeArguments="ui:UiElement">
+          <CSharpReference x:TypeArguments="ui:UiElement" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">out_Browser</CSharpReference>
+        </OutArgument>
+      </uix:NApplicationCard.OutUiElement>
       <uix:NApplicationCard.TargetApp>
         <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="n5nvJwi51ESI-PCy3UpMXA" IconBase64="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" InformativeScreenshot="70bedc2d2ee07e377eb340b39f9b42bb.jpg" Reference="cKqHnN-ml0W5F--lgZhQYg/Uxd0LMwWX0elmwlXfNAYLQ" Selector="&lt;html app='chrome.exe' title='Sprawdź normę EURO dla pojazdu - Portal gov.pl' /&gt;" Version="V2">
           <uix:TargetApp.Url>

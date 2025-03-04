@@ -1,0 +1,14 @@
+﻿{
+  "Name": "OTWÓRZ STRONĘ",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "QBlw0Iyql0Co-MLIKsegGA",
+  "Reference": "cKqHnN-ml0W5F--lgZhQYg/QBlw0Iyql0Co-MLIKsegGA",
+  "ParentRef": "cKqHnN-ml0W5F--lgZhQYg/Uxd0LMwWX0elmwlXfNAYLQ",
+  "Created": "2025-03-04T18:11:04.3445882Z",
+  "Updated": "2025-03-04T18:11:04.3445882Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
